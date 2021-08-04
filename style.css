@@ -1,0 +1,57 @@
+*, 
+*:before, 
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+  width: 300px;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game-timer {
+  margin-bottom: 1rem;
+}
+
+.scores {
+  margin-bottom: 2rem;
+}
+
+.equation {
+  display: flex;
+  margin-bottom: .5rem;
+}
+
+#answer-input {
+  margin-bottom: .5rem;
+}
+
+.equation > :not(:last-child) {
+  margin-right: .25rem;
+}
+
+.operator-checkboxes {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.operator-checkboxes > :not(:last-child) {
+  margin-right: 1rem;
+}
